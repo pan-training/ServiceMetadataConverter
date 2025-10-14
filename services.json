@@ -1,0 +1,323 @@
+[
+   {
+      "id": "panosc-node:services:alba-synchrotron-data-portal",
+      "service": {
+         "id": "panosc-node:services:alba-synchrotron-data-portal",
+         "name": "ALBA synchrotron Data Portal",
+         "webpage": "https://data.cells.es/",
+         "description": "Find, access, interact and reuse data acquired at ALBA",
+         "tags": [
+            "Synchrotron",
+            "Data at Photon and Neutron Facilities"
+         ],
+         "scientificDomains": [
+            {
+               "scientificDomain": "scientific_domain-natural_sciences"
+            }
+         ],
+         "categories": [
+            {
+               "category": "category-other-other"
+            }
+         ],
+         "targetUsers": [
+            "target_user-researchers"
+         ],
+         "languageAvailabilities": [
+            "EN"
+         ],
+         "trl": "trl-8",
+         "orderType": "order_type-fully_open_access"
+      }
+   },
+   {
+      "id": "panosc-node:services:daphne-public-data-portal",
+      "service": {
+         "id": "panosc-node:services:daphne-public-data-portal",
+         "name": "DAPHNE Public Data Portal",
+         "webpage": "https://public-data.desy.de/",
+         "description": "This catalogue allows users to access publicly available data and metadata from experiments and simulations provided by members of the scientific community. All data available has been curated to the best effort and knowledge but is provided without warranty.",
+         "tags": [
+            "Service",
+            "FAIR",
+            "data repository",
+            "data catalogue"
+         ],
+         "scientificDomains": [
+            {
+               "scientificDomain": "scientific_domain-natural_sciences"
+            }
+         ],
+         "categories": [
+            {
+               "category": "category-other-other"
+            }
+         ],
+         "targetUsers": [
+            "target_user-researchers"
+         ],
+         "languageAvailabilities": [
+            "EN"
+         ],
+         "trl": "trl-8",
+         "orderType": "order_type-fully_open_access"
+      }
+   },
+   {
+      "id": "panosc-node:services:paleontology-data-portal",
+      "service": {
+         "id": "panosc-node:services:paleontology-data-portal",
+         "name": "Paleontology data portal",
+         "webpage": "https://paleo.esrf.fr",
+         "description": "The Paleontology database hosts data obtained from X-ray Computed Tomography experiments at ESRF. Started in 2011, it has helped the ESRF user community share their data upon publication.",
+         "tags": [
+            "Data"
+         ],
+         "scientificDomains": [
+            {
+               "scientificDomain": "scientific_domain-natural_sciences"
+            }
+         ],
+         "categories": [
+            {
+               "category": "category-sharing_and_discovery-data"
+            }
+         ],
+         "targetUsers": [
+            "target_user-researchers"
+         ],
+         "languageAvailabilities": [
+            "EN"
+         ],
+         "trl": "trl-8",
+         "orderType": "order_type-fully_open_access"
+      }
+   },
+   {
+      "id": "panosc-node:services:human-organ-atlas",
+      "service": {
+         "id": "panosc-node:services:human-organ-atlas",
+         "name": "Human Organ Atlas",
+         "webpage": "https://human-organ-atlas.esrf.fr/",
+         "description": "The Human Organ Atlas provides Hierarchical Phase-Contrast Tomography images of human anatomy from the micron to whole organ scale. Human tissue is inherently hierarchical and multiscale with cells, tissues and organs organised into specific structures at each of the levels.",
+         "tags": [
+            "human organs"
+         ],
+         "scientificDomains": [
+            {
+               "scientificDomain": "scientific_domain-natural_sciences"
+            }
+         ],
+         "categories": [
+            {
+               "category": "category-other-other"
+            }
+         ],
+         "targetUsers": [
+            "target_user-researchers"
+         ],
+         "languageAvailabilities": [
+            "EN"
+         ],
+         "trl": "trl-8",
+         "orderType": "order_type-fully_open_access"
+      }
+   },
+   {
+      "id": "panosc-node:services:esrf-data-repository",
+      "service": {
+         "id": "panosc-node:services:esrf-data-repository",
+         "name": "ESRF data repository",
+         "webpage": "https://data.esrf.fr",
+         "description": "The ESRF FAIR data catalog contains all raw data and processed data (for certain techniques)",
+         "tags": [
+            "data catalogue"
+         ],
+         "scientificDomains": [
+            {
+               "scientificDomain": "scientific_domain-natural_sciences"
+            }
+         ],
+         "categories": [
+            {
+               "category": "category-other-other"
+            }
+         ],
+         "targetUsers": [
+            "target_user-researchers"
+         ],
+         "languageAvailabilities": [
+            "EN"
+         ],
+         "trl": "trl-8",
+         "orderType": "order_type-fully_open_access"
+      }
+   },
+   {
+      "id": "panosc-node:services:ill-visa-service",
+      "service": {
+         "id": "panosc-node:services:ill-visa-service",
+         "name": "ILL VISA Service",
+         "webpage": "https://visa.ill.fr/login?returnUrl=%2Fhome",
+         "description": "VISA (Virtual Infrastructure for Scientific Analysis) makes it simple to create compute instances on the data analysis infrastructure to analyse your experimental data using just your web browser",
+         "tags": [
+            "VISA"
+         ],
+         "scientificDomains": [
+            {
+               "scientificDomain": "scientific_domain-natural_sciences"
+            }
+         ],
+         "categories": [
+            {
+               "category": "category-other-other"
+            }
+         ],
+         "targetUsers": [
+            "target_user-researchers"
+         ],
+         "languageAvailabilities": [
+            "EN"
+         ],
+         "trl": "trl-8",
+         "orderType": "order_type-fully_open_access"
+      }
+   },
+   {
+      "id": "panosc-node:services:panosc-data-portal",
+      "service": {
+         "id": "panosc-node:services:panosc-data-portal",
+         "name": "PaNOSC Data Portal",
+         "webpage": "https://data.panosc.eu",
+         "description": "The PaNOSC Data Portal provides unified access to experimental data from Europe\u2019s major photon and neutron facilities. It enables users to search, view, and retrieve datasets across institutions, supporting FAIR principles and facilitating data reuse for research and training.",
+         "tags": [
+            "PaNOSC",
+            "PaNET",
+            "Portal",
+            "Data",
+            "Metadata",
+            "EOSC",
+            "Service"
+         ],
+         "scientificDomains": [
+            {
+               "scientificDomain": "scientific_domain-natural_sciences"
+            }
+         ],
+         "categories": [
+            {
+               "category": "category-sharing_and_discovery-data"
+            }
+         ],
+         "targetUsers": [
+            "target_user-researchers"
+         ],
+         "languageAvailabilities": [
+            "EN"
+         ],
+         "trl": "trl-8",
+         "orderType": "order_type-fully_open_access"
+      }
+   },
+   {
+      "id": "panosc-node:services:hzdr-metadata-catalogue-scicat",
+      "service": {
+         "id": "panosc-node:services:hzdr-metadata-catalogue-scicat",
+         "name": "HZDR Metadata Catalogue SciCat",
+         "webpage": "https://scicat.hzdr.de",
+         "description": "SciCat is HZDR\u2019s metadata catalogue for managing and discovering experimental and simulation datasets. It captures detailed metadata throughout the research lifecycle, enabling efficient search, linking to raw and processed data, and integration with facility workflows and FAIR data services.",
+         "tags": [
+            "metadata catalogue",
+            "SciCat",
+            "PaNOSC",
+            "service"
+         ],
+         "scientificDomains": [
+            {
+               "scientificDomain": "scientific_domain-natural_sciences"
+            }
+         ],
+         "categories": [
+            {
+               "category": "category-other-other"
+            }
+         ],
+         "targetUsers": [
+            "target_user-researchers"
+         ],
+         "languageAvailabilities": [
+            "EN"
+         ],
+         "trl": "trl-8",
+         "orderType": "order_type-fully_open_access"
+      }
+   },
+   {
+      "id": "panosc-node:services:hzdr-data-repository-rodare",
+      "service": {
+         "id": "panosc-node:services:hzdr-data-repository-rodare",
+         "name": "HZDR Data Repository RODARE",
+         "webpage": "https://rodare.hzdr.de",
+         "description": "RODARE is the Helmholtz-Zentrum Dresden-Rossendorf\u2019s data repository for publishing, sharing, and preserving research data, software, and related materials. It provides persistent identifiers (DOIs), supports FAIR principles, and enables open access to datasets across all HZDR scientific disciplines.",
+         "tags": [
+            "data repository",
+            "PaNOSC",
+            "Photon and Neutron",
+            "service"
+         ],
+         "scientificDomains": [
+            {
+               "scientificDomain": "scientific_domain-natural_sciences"
+            }
+         ],
+         "categories": [
+            {
+               "category": "category-other-other"
+            }
+         ],
+         "targetUsers": [
+            "target_user-researchers"
+         ],
+         "languageAvailabilities": [
+            "EN"
+         ],
+         "trl": "trl-8",
+         "orderType": "order_type-fully_open_access"
+      }
+   },
+   {
+      "id": "panosc-node:services:pan-training",
+      "service": {
+         "id": "panosc-node:services:pan-training",
+         "name": "PaN-Training",
+         "webpage": "https://pan-training.eu",
+         "description": "PaN-Training.eu is the central training catalogue for the Photon and Neutron (PaN) research community, providing descriptive metadata on  courses, tutorials, and learning materials across facilities and disciplines. It supports researchers, engineers, and students in developing skills for data collection, analysis, and facility operations, and fosters knowledge sharing across the European PaN network.",
+         "tags": [
+            "training",
+            "training portal",
+            "Photon and Neutron",
+            "EOSC",
+            "PaNOSC",
+            "service"
+         ],
+         "scientificDomains": [
+            {
+               "scientificDomain": "scientific_domain-natural_sciences"
+            }
+         ],
+         "categories": [
+            {
+               "category": "category-training_and_support-education_and_training"
+            }
+         ],
+         "targetUsers": [
+            "target_user-researchers"
+         ],
+         "languageAvailabilities": [
+            "EN"
+         ],
+         "trl": "trl-8",
+         "orderType": "order_type-fully_open_access"
+      }
+   }
+]
