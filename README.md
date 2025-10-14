@@ -18,3 +18,8 @@ run script
 python main.py
 ```
 
+get information about configuration options
+
+```bash
+python main.py --help
+```
