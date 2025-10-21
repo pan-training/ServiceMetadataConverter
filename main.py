@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 from slugify import slugify
 import requests
 import json
-import sys
 import argparse
 
 SDO = Namespace("http://schema.org/")  # The SDO import from rdflib is a https url
