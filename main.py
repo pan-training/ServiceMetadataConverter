@@ -11,14 +11,20 @@ DEFAULT_TARGET_LOCATION = "services.json"
 
 
 def get_metadata_graph(source_url):
-    html = requests.get(source_url).text
-    soup = BeautifulSoup(html, "html.parser")
-
     graph = Graph()
 
-    for script in soup.find_all("script", type="application/ld+json"):
-        if data := script.string:
-            graph.parse(data=data, format="json-ld")
+    for page in range(1, 1000):
+        empty_page = True
+
+        html = requests.get(source_url, params={"page": page}).text
+        soup = BeautifulSoup(html, "html.parser")
+        for script in soup.find_all("script", type="application/ld+json"):
+            if data := script.string:
+                empty_page = False
+                graph.parse(data=data, format="json-ld")
+
+        if empty_page:
+            break
 
     return graph
 
@@ -111,6 +117,7 @@ def main(argv=None):
     serialized = [serialize_service(s, metadata) for s in metadata.subjects(RDF.type, SDO.LearningResource)]
     with open(args.target_location, "w") as f:
         json.dump(serialized, f, indent=3)
+    print(f"wrote {len(serialized)} services to {args.target_location}")
 
 
 parser = argparse.ArgumentParser(
