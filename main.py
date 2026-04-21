@@ -6,7 +6,7 @@ import json
 import argparse
 
 SDO = Namespace("http://schema.org/")  # The SDO import from rdflib is a https url
-DEFAULT_SOURCE_URL = "https://tesshub.hzdr.de/materials?collections=PaNOSC+Node+Service+Collection"
+DEFAULT_SOURCE_URL = "https://services.tesshub.hzdr.de/materials?collections=PaNOSC+Node+Service+Collection"
 DEFAULT_TARGET_LOCATION = "services.json"
 
 
