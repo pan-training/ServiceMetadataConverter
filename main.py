@@ -118,6 +118,9 @@ def main(argv=None):
     with open(args.target_location, "w") as f:
         json.dump(serialized, f, indent=3)
     print(f"wrote {len(serialized)} services to {args.target_location}")
+    if not serialized:
+        print("no services found, exiting with error")
+        exit(1)
 
 
 parser = argparse.ArgumentParser(
