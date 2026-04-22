@@ -23,3 +23,17 @@ get information about configuration options
 ```bash
 python main.py --help
 ```
+## Example Architecture used for the EOSC Node PaNOSC
+
+For the [EOSC node PaNOSC](https://eosc.panosc.eu), service metadata is processed via the [PaNOSC Service Catalogue](https://services tesshub.hzdr.de/collections/eosc-panosc-node-services), processed by a cron job and made available via the EOSC Service Catalogue Converter (this repository), which makes the service metadata available via a [REST API endpoint](https://pan-training.eu/service-catalogue/api/v3/docs).
+
+```mermaid
+graph TD
+subgraph TeSSHub VM
+	A[<a href='https://services.tesshub.hzdr.de/collections/eosc-panosc-node-services'>PaNOSC Service Catalogue</a>] -->|REST API| B[<a href='https://github.com/pan-training/ServiceMetadataConverter'>Service Metadata Converter</a>]
+	B -->|Json Container| E[<a href='https://pan-training.eu/service-catalogue/api/v3/docs'>Service API Endpoint</a>]
+end
+
+A -->|REST API| C[<a href='https://eosc.panosc.eu'>Widget on PaNOSC Node Website</a>]
+E -->|REST API| F[<a href=''>EOSC Service Cataloge</a>]
+```
