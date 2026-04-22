@@ -1,6 +1,6 @@
 # EOSC Service Catalogue Converter
 
-Service metadata stored in PaN-Training can be made available to the EOSC using the [eosc-services-catalog](https://github.com/mosart/eosc-services-catalog). This program takes json file containing the service metadata and serves it in an EOSC compliant way. This repository is concerned with generating this json file from metadata in PaN-Training.
+Service metadata stored in PaN-Training can be made available to the EOSC using the [eosc-services-catalog](https://github.com/pan-training/eosc-services-catalog). This program takes a json file containing the service metadata and serves it in an EOSC compliant way. This repository is concerned with generating this json file from metadata in PaN-Training.
 
 ## How to execute
 
