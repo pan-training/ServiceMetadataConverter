@@ -2,6 +2,8 @@
 
 Service metadata stored in PaN-Training can be made available to the EOSC using the [eosc-services-catalog](https://github.com/mosart/eosc-services-catalog). This program takes json file containing the service metadata and serves it in an EOSC compliant way. This repository is concerned with generating this json file from metadata in PaN-Training.
 
+The lates api schema is here: https://doi.org/10.5281/zenodo.21807188
+
 ## How to execute
 
 Install dependencies

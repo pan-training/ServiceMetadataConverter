@@ -103,7 +103,10 @@ def serialize_service(service_iri, metadata: Graph):
             "orderType": keyword_map(  # https://github.com/madgeek-arc/resource-catalogue-docs/blob/master/vocabularies/ORDER_TYPE.json
                 default="order_type-fully_open_access",
                 login_required="order_type-open_access",
-            )[0]
+            )[0],
+            "helpdeskEmail": "helpdesk@panosc.eu",
+            "termsOfUse": "https://www.panosc.eu/panosc-eosc-node/panosc-node-user-policies",
+            "privacyPolicy": "https://www.panosc.eu/panosc-eosc-node/panosc-node-user-policies",
         }
     }
 
